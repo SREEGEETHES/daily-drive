@@ -71,3 +71,19 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+
+This is a demo project to practice the entire workflow of the software development from code to AWS cloud
+
+components:
+
+Version control - Github
+
+Ci/Cd - github actions / jenkins / codepipeline  #I am using the same project in all the platform
+
+Container - Docker
+                    # both will be done in the AWS EKS and ECS
+Orchestator - K8s
+
+Cloud - AWS
+            # To Provision infra in code by terraform
