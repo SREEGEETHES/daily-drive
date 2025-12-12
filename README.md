@@ -61,8 +61,6 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 3. **Deploy Stage**: Static files deployed to S3 bucket
 4. **Distribution**: CloudFront serves content globally with HTTPS
 
-<!-- INSERT ARCHITECTURE DIAGRAM SCREENSHOT HERE -->
-![Architecture Diagram](screenshots/architecture.png)
 
 ---
 
@@ -230,7 +228,8 @@ Deploy: S3 bucket
 
 ### Pipeline Execution
 <!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
-![Pipeline Execution](screenshots/pipeline-execution.png)
+![Pipeline Execution](<img width="1919" height="915" alt="Screenshot 2025-12-12 163812" src="https://github.com/user-attachments/assets/b1bf6e7b-9c9e-4395-8ec8-bed581cd159f" />
+png)
 
 ### Build Logs
 <!-- INSERT BUILD LOGS SCREENSHOT HERE -->
