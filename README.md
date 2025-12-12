@@ -98,9 +98,6 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 - **Provider**: GitHub (OAuth connection)
 - **Output**: Source code artifact
 
-<!-- INSERT SOURCE STAGE SCREENSHOT HERE -->
-![Source Stage](screenshots/source-stage.png)
-
 #### 2. Build Stage
 - **Provider**: AWS CodeBuild
 - **Runtime**: Amazon Linux 2, Node.js 20
@@ -111,17 +108,11 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
   ```
 - **Output**: Optimized static files in `dist/`
 
-<!-- INSERT BUILD STAGE SCREENSHOT HERE -->
-![Build Stage](screenshots/build-stage.png)
-
 #### 3. Deploy Stage
 - **Provider**: Amazon S3
 - **Action**: Upload static files to S3 bucket
 - **Configuration**: Extract files before deploy
 - **Result**: Website accessible via S3 endpoint
-
-<!-- INSERT DEPLOY STAGE SCREENSHOT HERE -->
-![Deploy Stage](screenshots/deploy-stage.png)
 
 ### Build Configuration (`buildspec.yml`)
 
@@ -207,9 +198,6 @@ Index document: index.html
 Error document: index.html
 ```
 
-<!-- INSERT S3 BUCKET SCREENSHOT HERE -->
-![S3 Bucket Configuration](screenshots/s3-bucket.png)
-
 #### 2. Configure CloudFront Distribution
 ```
 Origin: S3 bucket website endpoint
@@ -217,9 +205,6 @@ Viewer protocol: Redirect HTTP to HTTPS
 Default root object: index.html
 Custom error response: 404 → /index.html (200)
 ```
-
-<!-- INSERT CLOUDFRONT SCREENSHOT HERE -->
-![CloudFront Distribution](screenshots/cloudfront.png)
 
 #### 3. Create CodeBuild Project
 ```
@@ -230,8 +215,6 @@ Buildspec: buildspec.yml
 Artifacts: S3 bucket
 ```
 
-<!-- INSERT CODEBUILD SCREENSHOT HERE -->
-![CodeBuild Project](screenshots/codebuild.png)
 
 #### 4. Create CodePipeline
 ```
@@ -240,9 +223,6 @@ Source: GitHub (OAuth)
 Build: CodeBuild project
 Deploy: S3 bucket
 ```
-
-<!-- INSERT CODEPIPELINE SCREENSHOT HERE -->
-![CodePipeline Overview](screenshots/codepipeline.png)
 
 ---
 
@@ -341,9 +321,7 @@ docker run -p 8080:80 daily-drive
 ## 🔗 Links
 
 - **GitHub Repository**: https://github.com/SREEGEETHES/daily-drive
-- **Live Demo**: [Insert your URL]
-- **CloudFront Distribution**: [Insert CloudFront URL]
-- **S3 Website Endpoint**: [Insert S3 URL]
+- **Live Demo**: http://daily-drive-cicd.s3-website.ap-south-1.amazonaws.com/
 
 ---
 
@@ -352,7 +330,6 @@ docker run -p 8080:80 daily-drive
 **Jasprit Sree**
 
 - GitHub: [@SREEGEETHES](https://github.com/SREEGEETHES)
-- LinkedIn: [Add your LinkedIn]
 
 ---
 
