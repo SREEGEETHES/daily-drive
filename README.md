@@ -228,37 +228,37 @@ Deploy: S3 bucket
 
 ### Pipeline Execution
 <!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
-( <img width="1919" height="915" alt="Screenshot 2025-12-12 163812" src="https://github.com/user-attachments/assets/b1bf6e7b-9c9e-4395-8ec8-bed581cd159f" /> )
+<img width="1919" height="915" alt="Screenshot 2025-12-12 163812" src="https://github.com/user-attachments/assets/b1bf6e7b-9c9e-4395-8ec8-bed581cd159f" />
 
 ## Cloudfront
 <!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
-( <img width="1918" height="906" alt="Screenshot 2025-12-12 150255" src="https://github.com/user-attachments/assets/c73a6ab5-8fb5-4a06-9916-c66f371e56f3" /> )
+<img width="1918" height="906" alt="Screenshot 2025-12-12 150255" src="https://github.com/user-attachments/assets/c73a6ab5-8fb5-4a06-9916-c66f371e56f3" />
 
-( <img width="1919" height="909" alt="Screenshot 2025-12-12 150206" src="https://github.com/user-attachments/assets/0c64a1c6-9dfe-4dac-8397-d6cc07d9c1eb" /> )
+(<img width="1919" height="909" alt="Screenshot 2025-12-12 150206" src="https://github.com/user-attachments/assets/0c64a1c6-9dfe-4dac-8397-d6cc07d9c1eb" />
 
 
 ## S3 bucket
 <!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
 
-( <img width="1919" height="910" alt="Screenshot 2025-12-12 150336" src="https://github.com/user-attachments/assets/a5c3233e-1f46-482c-861b-01fa266298cd" /> )
+<img width="1919" height="910" alt="Screenshot 2025-12-12 150336" src="https://github.com/user-attachments/assets/a5c3233e-1f46-482c-861b-01fa266298cd" />
 
-( <img width="1614" height="624" alt="Screenshot 2025-12-12 164030" src="https://github.com/user-attachments/assets/cd69940d-f14c-4a16-bf95-3a9b13a9e7bb" /> )
+<img width="1614" height="624" alt="Screenshot 2025-12-12 164030" src="https://github.com/user-attachments/assets/cd69940d-f14c-4a16-bf95-3a9b13a9e7bb" />
 
-( <img width="1919" height="839" alt="Screenshot 2025-12-12 164852" src="https://github.com/user-attachments/assets/0eca2bd8-edce-42cd-a2ca-f025da43404a" /> )
+<img width="1919" height="839" alt="Screenshot 2025-12-12 164852" src="https://github.com/user-attachments/assets/0eca2bd8-edce-42cd-a2ca-f025da43404a" />
 
-( <img width="1919" height="987" alt="Screenshot 2025-12-12 165114" src="https://github.com/user-attachments/assets/0bd1ca3a-fd74-42e1-b6b1-d1a9352a24be" /> )
+<img width="1919" height="987" alt="Screenshot 2025-12-12 165114" src="https://github.com/user-attachments/assets/0bd1ca3a-fd74-42e1-b6b1-d1a9352a24be" />
 
 
 ### Build Logs
 <!-- INSERT BUILD LOGS SCREENSHOT HERE -->
-(<img width="1913" height="898" alt="Screenshot 2025-12-12 162516" src="https://github.com/user-attachments/assets/6705ec56-4b43-4fc2-8d56-1eff29f8ce2a" /> )
+<img width="1913" height="898" alt="Screenshot 2025-12-12 162516" src="https://github.com/user-attachments/assets/6705ec56-4b43-4fc2-8d56-1eff29f8ce2a" />
 
 ### Deployed Application
 <!-- INSERT DEPLOYED APP SCREENSHOT HERE -->
-(<img width="1919" height="992" alt="Screenshot 2025-12-12 165524" src="https://github.com/user-attachments/assets/98162444-ea2f-43c5-9221-e518235dd89a" />)
+<img width="1919" height="992" alt="Screenshot 2025-12-12 165524" src="https://github.com/user-attachments/assets/98162444-ea2f-43c5-9221-e518235dd89a" />
 
 
-( <img width="1919" height="992" alt="Screenshot 2025-12-12 165538" src="https://github.com/user-attachments/assets/e67604a9-fad6-4580-8edd-6c09a9c284da" /> )
+<img width="1919" height="992" alt="Screenshot 2025-12-12 165538" src="https://github.com/user-attachments/assets/e67604a9-fad6-4580-8edd-6c09a9c284da" /> 
 
 ---
 
