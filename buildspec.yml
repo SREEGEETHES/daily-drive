@@ -29,7 +29,6 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
-  name: daily-drive-build
 
 cache:
   paths:
