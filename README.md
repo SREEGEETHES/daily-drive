@@ -64,6 +64,11 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 
 ---
 
+## 🏗️ Architecture Diagram
+
+<img width="1536" height="1024" alt="ChatGPT Image Dec 14, 2025, 01_52_45 PM" src="https://github.com/user-attachments/assets/38649397-0898-476f-b7a6-600d95622ab7" />
+
+
 ## 🛠️ Technologies Used
 
 ### Frontend
