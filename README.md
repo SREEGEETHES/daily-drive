@@ -32,7 +32,7 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 - ✅ Infrastructure as Code with buildspec.yml
 - ✅ Docker containerization support
 
-**Live Demo**: [Insert your CloudFront or S3 URL here]
+**Live Demo**: [http://daily-drive-cicd.s3-website.ap-south-1.amazonaws.com/]
 
 ---
 
@@ -61,8 +61,6 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 3. **Deploy Stage**: Static files deployed to S3 bucket
 4. **Distribution**: CloudFront serves content globally with HTTPS
 
-<!-- INSERT ARCHITECTURE DIAGRAM SCREENSHOT HERE -->
-![Architecture Diagram](screenshots/architecture.png)
 
 ---
 
@@ -98,9 +96,6 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
 - **Provider**: GitHub (OAuth connection)
 - **Output**: Source code artifact
 
-<!-- INSERT SOURCE STAGE SCREENSHOT HERE -->
-![Source Stage](screenshots/source-stage.png)
-
 #### 2. Build Stage
 - **Provider**: AWS CodeBuild
 - **Runtime**: Amazon Linux 2, Node.js 20
@@ -111,17 +106,11 @@ This project demonstrates a complete **CI/CD pipeline** implementation using AWS
   ```
 - **Output**: Optimized static files in `dist/`
 
-<!-- INSERT BUILD STAGE SCREENSHOT HERE -->
-![Build Stage](screenshots/build-stage.png)
-
 #### 3. Deploy Stage
 - **Provider**: Amazon S3
 - **Action**: Upload static files to S3 bucket
 - **Configuration**: Extract files before deploy
 - **Result**: Website accessible via S3 endpoint
-
-<!-- INSERT DEPLOY STAGE SCREENSHOT HERE -->
-![Deploy Stage](screenshots/deploy-stage.png)
 
 ### Build Configuration (`buildspec.yml`)
 
@@ -207,9 +196,6 @@ Index document: index.html
 Error document: index.html
 ```
 
-<!-- INSERT S3 BUCKET SCREENSHOT HERE -->
-![S3 Bucket Configuration](screenshots/s3-bucket.png)
-
 #### 2. Configure CloudFront Distribution
 ```
 Origin: S3 bucket website endpoint
@@ -217,9 +203,6 @@ Viewer protocol: Redirect HTTP to HTTPS
 Default root object: index.html
 Custom error response: 404 → /index.html (200)
 ```
-
-<!-- INSERT CLOUDFRONT SCREENSHOT HERE -->
-![CloudFront Distribution](screenshots/cloudfront.png)
 
 #### 3. Create CodeBuild Project
 ```
@@ -230,8 +213,6 @@ Buildspec: buildspec.yml
 Artifacts: S3 bucket
 ```
 
-<!-- INSERT CODEBUILD SCREENSHOT HERE -->
-![CodeBuild Project](screenshots/codebuild.png)
 
 #### 4. Create CodePipeline
 ```
@@ -241,24 +222,43 @@ Build: CodeBuild project
 Deploy: S3 bucket
 ```
 
-<!-- INSERT CODEPIPELINE SCREENSHOT HERE -->
-![CodePipeline Overview](screenshots/codepipeline.png)
-
 ---
 
 ## 📸 Screenshots
 
 ### Pipeline Execution
 <!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
-![Pipeline Execution](screenshots/pipeline-execution.png)
+<img width="1919" height="915" alt="Screenshot 2025-12-12 163812" src="https://github.com/user-attachments/assets/b1bf6e7b-9c9e-4395-8ec8-bed581cd159f" />
+
+## Cloudfront
+<!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
+<img width="1918" height="906" alt="Screenshot 2025-12-12 150255" src="https://github.com/user-attachments/assets/c73a6ab5-8fb5-4a06-9916-c66f371e56f3" />
+
+(<img width="1919" height="909" alt="Screenshot 2025-12-12 150206" src="https://github.com/user-attachments/assets/0c64a1c6-9dfe-4dac-8397-d6cc07d9c1eb" />
+
+
+## S3 bucket
+<!-- INSERT PIPELINE EXECUTION SCREENSHOT HERE -->
+
+<img width="1919" height="910" alt="Screenshot 2025-12-12 150336" src="https://github.com/user-attachments/assets/a5c3233e-1f46-482c-861b-01fa266298cd" />
+
+<img width="1614" height="624" alt="Screenshot 2025-12-12 164030" src="https://github.com/user-attachments/assets/cd69940d-f14c-4a16-bf95-3a9b13a9e7bb" />
+
+<img width="1919" height="839" alt="Screenshot 2025-12-12 164852" src="https://github.com/user-attachments/assets/0eca2bd8-edce-42cd-a2ca-f025da43404a" />
+
+<img width="1919" height="987" alt="Screenshot 2025-12-12 165114" src="https://github.com/user-attachments/assets/0bd1ca3a-fd74-42e1-b6b1-d1a9352a24be" />
+
 
 ### Build Logs
 <!-- INSERT BUILD LOGS SCREENSHOT HERE -->
-![Build Logs](screenshots/build-logs.png)
+<img width="1913" height="898" alt="Screenshot 2025-12-12 162516" src="https://github.com/user-attachments/assets/6705ec56-4b43-4fc2-8d56-1eff29f8ce2a" />
 
 ### Deployed Application
 <!-- INSERT DEPLOYED APP SCREENSHOT HERE -->
-![Deployed Application](screenshots/deployed-app.png)
+<img width="1919" height="992" alt="Screenshot 2025-12-12 165524" src="https://github.com/user-attachments/assets/98162444-ea2f-43c5-9221-e518235dd89a" />
+
+
+<img width="1919" height="992" alt="Screenshot 2025-12-12 165538" src="https://github.com/user-attachments/assets/e67604a9-fad6-4580-8edd-6c09a9c284da" /> 
 
 ---
 
@@ -341,9 +341,7 @@ docker run -p 8080:80 daily-drive
 ## 🔗 Links
 
 - **GitHub Repository**: https://github.com/SREEGEETHES/daily-drive
-- **Live Demo**: [Insert your URL]
-- **CloudFront Distribution**: [Insert CloudFront URL]
-- **S3 Website Endpoint**: [Insert S3 URL]
+- **Live Demo**: http://daily-drive-cicd.s3-website.ap-south-1.amazonaws.com/
 
 ---
 
@@ -352,7 +350,6 @@ docker run -p 8080:80 daily-drive
 **Jasprit Sree**
 
 - GitHub: [@SREEGEETHES](https://github.com/SREEGEETHES)
-- LinkedIn: [Add your LinkedIn]
 
 ---
 
